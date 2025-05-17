@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>B52 Game Bai</title>
 </head>
 <body>
-    
-</body>
+    <div class="game-container">
+        <h1>Tai Xiu</h1>
+        <div class="buttons">
+            <button onclick="playGame('tai')">Đặt Tài (11-18)</button>
+            <button onclick="playGame('xiu')">Đặt Xỉu (3-10)</button>
+          </div>
+          <div class="dice-container" id="diceContainer">
+            🎲 🎲 🎲
+          </div>
+          <p id="resultText"></p>      
+</div>
+    </body>
 </html>
